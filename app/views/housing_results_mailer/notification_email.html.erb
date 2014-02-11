@@ -1,0 +1,9 @@
+<html>
+  <body>
+    <p>See all results on a webpage <%= link_to 'here', craigslist_watcher_housing_result_batch_url(@batch) %></p>
+
+    <p>Email responding template <%= link_to 'here', pages_email_template_url %></p>
+
+    <%= render 'craigslist_watcher/results_table', :results => @batch.housing_results %>
+  </body>
+</html>

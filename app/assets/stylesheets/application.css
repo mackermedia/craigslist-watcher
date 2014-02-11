@@ -1,0 +1,177 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+table { border-bottom-color: rgb(221, 221, 221);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-collapse: collapse;
+border-image-outset: 0px;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(221, 221, 221);
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: rgb(221, 221, 221);
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: rgb(221, 221, 221);
+border-top-style: solid;
+border-top-width: 1px;
+box-sizing: border-box;
+color: rgb(51, 51, 51);
+display: table;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 14px;
+height: 187px;
+line-height: 20px;
+margin-bottom: 0px;
+max-width: 100%;
+width: 815px;}
+
+thead {
+border-bottom-color: rgb(221, 221, 221);
+border-collapse: collapse;
+border-left-color: rgb(221, 221, 221);
+border-right-color: rgb(221, 221, 221);
+border-top-color: rgb(221, 221, 221);
+box-sizing: border-box;
+color: rgb(51, 51, 51);
+display: table-header-group;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 14px;
+height: 38px;
+line-height: 20px;
+vertical-align: middle;
+width: 814px;
+}
+
+tr {
+border-bottom-color: rgb(221, 221, 221);
+border-collapse: collapse;
+border-left-color: rgb(221, 221, 221);
+border-right-color: rgb(221, 221, 221);
+border-top-color: rgb(221, 221, 221);
+box-sizing: border-box;
+color: rgb(51, 51, 51);
+display: table-row;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 14px;
+height: 38px;
+line-height: 20px;
+vertical-align: middle;
+width: 814px;
+}
+
+th {
+border-bottom-color: rgb(221, 221, 221);
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-collapse: collapse;
+border-image-outset: 0px;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(221, 221, 221);
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: rgb(221, 221, 221);
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: rgb(51, 51, 51);
+border-top-style: none;
+border-top-width: 0px;
+box-sizing: border-box;
+color: rgb(51, 51, 51);
+display: table-cell;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: bold;
+height: 38px;
+line-height: 20px;
+padding-bottom: 8px;
+padding-left: 8px;
+padding-right: 8px;
+padding-top: 8px;
+text-align: left;
+vertical-align: bottom;
+width: 65px;
+}
+
+tbody {
+border-bottom-color: rgb(221, 221, 221);
+border-collapse: collapse;
+border-left-color: rgb(221, 221, 221);
+border-right-color: rgb(221, 221, 221);
+border-top-color: rgb(221, 221, 221);
+box-sizing: border-box;
+color: rgb(51, 51, 51);
+display: table-row-group;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 14px;
+height: 148px;
+line-height: 20px;
+vertical-align: middle;
+width: 814px;
+}
+
+td {
+border-bottom-color: rgb(221, 221, 221);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-collapse: collapse;
+border-image-outset: 0px;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(221, 221, 221);
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: rgb(221, 221, 221);
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: rgb(221, 221, 221);
+border-top-style: solid;
+border-top-width: 1px;
+box-sizing: border-box;
+color: rgb(51, 51, 51);
+display: table-cell;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 14px;
+height: 37px;
+line-height: 20px;
+padding-bottom: 8px;
+padding-left: 8px;
+padding-right: 8px;
+padding-top: 8px;
+vertical-align: top;
+width: 234px;
+}
+
+.removed {
+  color: rgb(255, 0, 0);
+}
+
+.black-text {
+  background-color: white;
+  color: black;
+}
+
+.image-list {
+  max-height: 400px;
+  overflow: scroll;
+}

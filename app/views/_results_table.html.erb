@@ -1,0 +1,22 @@
+<table class='table'>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Location</th>
+      <th>Link</th>
+      <th>Price</th>
+      <th>Bedrooms</th>
+      <th>Sq. Ft</th>
+      <th>Pets</th>
+      <th>Map</th>
+      <th>Images</th>
+      <th>REMOVED?</th>
+      <th>SCAM?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% results.each do |result| %>
+      <%== result.to_html.html_safe %>
+    <% end %>
+  </tbody>
+</table>

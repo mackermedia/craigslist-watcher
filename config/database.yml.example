@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: something_development
+  pool: 5
+  username:
+  password:
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: something_test
+  pool: 5
+  username:
+  password:
+  host: localhost
