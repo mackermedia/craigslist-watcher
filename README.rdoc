@@ -6,4 +6,4 @@ This makes looking for housing in Boudler a much more pleasant experience.
 
 (Keep in mind that Craigslist's TOS restricts parsing their data)
 
-- ![parsed results](https://dl.dropboxusercontent.com/spa/lbv7q0z27j14pgl/4st6xrr8.png)
+![parsed results](https://dl.dropboxusercontent.com/spa/lbv7q0z27j14pgl/4st6xrr8.png)
