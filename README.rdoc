@@ -1,28 +1,9 @@
-== README
+Looking for housing in Boulder is a bit of a nightmare. Separating the signal from the noise is a taxing chore, so I decided to come up with a little Craigslist parser to try and isolate only the information I cared about.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I wrote a parser (and accompanying web service to display results and persist records to a database) and found that Craigslist blocks requests coming from AWS servers. I then re-architected the application to have a standalone parser that runs on a Raspberry Pi to get around Craigslist blocking. This task is automated to run every few hours and pull out contextually relevant data or filter out results that I've blacklisted.
 
-Things you may want to cover:
+This makes looking for housing in Boudler a much more pleasant experience.
 
-* Ruby version
+(Keep in mind that Craigslist's TOS restricts parsing their data)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+- ![parsed results](https://dl.dropboxusercontent.com/spa/lbv7q0z27j14pgl/4st6xrr8.png)
